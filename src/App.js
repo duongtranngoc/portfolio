@@ -4,8 +4,8 @@ import Navbar from "./components/header/Navbar";
 import Home from "./components/home/Home";
 import About from "./components/about/About";
 import Projects from "./components/projects/Projects";
-import Footer from "./components/footer/Footer";
 import Resume from "./components/resume/Resume";
+import Footer from "./components/footer/Footer";
 import {
   BrowserRouter as Router,
   Route,
@@ -15,6 +15,7 @@ import {
 import ScrollToTop from "./components/ScrollToTop";
 import "./assets/styles/main.scss";
 import './assets/styles/App.scss';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   const [load, upadateLoad] = useState(true);
