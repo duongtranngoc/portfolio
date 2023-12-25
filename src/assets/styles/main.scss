@@ -1,10 +1,12 @@
 :root {
+    --characteristic-color: #aaabbb !important;
     --highlight-color: yellow !important;
 }
 
 /* --------- */
 /* Preloader */
 /* --------- */
+
 #preloader {
     position: fixed;
     top: 0;
@@ -26,4 +28,29 @@
 #no-scroll {
     overflow: hidden;
     height: 100vh;
+}
+
+/* --------- */
+/* Scrollbar */
+/* --------- */
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--characteristic-color);
+    border-radius: 12px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: var(--highlight-color);
+    border-radius: 12px;
 }
