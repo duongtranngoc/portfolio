@@ -3,6 +3,18 @@
     --highlight-color: yellow !important;
 }
 
+.highlight-text {
+    color: var(--highlight-color);
+}
+
+#tsparticles {
+    position: fixed !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    width: 100%;
+    height: 100%;
+}
+
 /* --------- */
 /* Preloader */
 /* --------- */
