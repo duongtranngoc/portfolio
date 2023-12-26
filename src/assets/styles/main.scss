@@ -68,3 +68,50 @@
         }
     }
 }
+
+/* --------- */
+/*   Footer  */
+/* --------- */
+.footer {
+    background-color: #434343;
+    bottom: 0 !important;
+    padding-top: 10px !important;
+    padding-bottom: 8px !important;
+
+    &-copywright {
+        text-align: center !important;
+    }
+
+    &-body {
+        z-index: 100;
+        text-align: center !important;
+    }
+
+    & h3 {
+        font-size: 1em;
+        color: white !important;
+        margin-top: 0.4em !important;
+        margin-bottom: 0.4em !important;
+    }
+
+    &-icons {
+        margin-top: 0.4em !important;
+        margin-bottom: 0.4em !important;
+        padding: 0 !important;
+    }
+
+    a {
+        text-decoration: none;
+        color: var(--highlight-color);
+    }
+}
+
+@media (max-width: 800px) {
+    .footer-copywright {
+        text-align: center !important;
+    }
+
+    .footer-body {
+        text-align: center !important;
+    }
+}
