@@ -106,43 +106,38 @@
         padding-inline-start: 0 !important;
 
 
-        .social-icons {
-            display: inline-block !important;
-            padding: 0 16px;
+        .icon-colour {
+            color: black !important;
 
-            .icon-colour {
-                color: black !important;
+            &.home-social-icons {
+                position: relative !important;
+                display: inline-block !important;
+                width: 40px !important;
+                height: 40px !important;
+                text-align: center !important;
+                font-size: 1.2em !important;
+                line-height: 2em !important;
+                background: white !important;
+                border-radius: 50% !important;
+                transition: 0.4s !important;
 
-                &.home-social-icons {
-                    position: relative !important;
-                    display: inline-block !important;
-                    width: 40px !important;
-                    height: 40px !important;
-                    text-align: center !important;
-                    font-size: 1.2em !important;
-                    line-height: 2em !important;
-                    background: white !important;
-                    border-radius: 50% !important;
-                    transition: 0.4s !important;
+                &::before {
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 50%;
+                    background: var(--characteristic-color);
+                    transition: 0.4s;
+                    transform: scale(0.9);
+                    z-index: -1;
+                }
 
-                    &::before {
-                        content: "";
-                        position: absolute;
-                        top: 0;
-                        left: 0;
-                        width: 100%;
-                        height: 100%;
-                        border-radius: 50%;
-                        background: var(--characteristic-color);
-                        transition: 0.4s;
-                        transform: scale(0.9);
-                        z-index: -1;
-                    }
-
-                    &:hover::before {
-                        transform: scale(1.1);
-                        box-shadow: 0 0 16px lighten(yellow, 20%);
-                    }
+                &:hover::before {
+                    transform: scale(1.1);
+                    box-shadow: 0 0 16px lighten(yellow, 20%);
                 }
             }
         }
