@@ -1,0 +1,50 @@
+.project-section {
+    position: relative !important;
+    padding-top: 150px !important;
+    padding-bottom: 30px !important;
+    background-image: var(--section-background-color) !important;
+
+    .project-heading {
+        color: white !important;
+        font-size: 2.3em !important;
+        font-weight: 500 !important;
+        padding-top: 10px !important;
+    }
+
+    .project-card {
+        padding: 50px 25px!important;
+        height: auto !important;
+
+        &-view {
+            box-shadow: 0 4px 5px 3px lighten(yellow, 40%);
+            color: white !important;
+            background-color: transparent !important;
+            opacity: 0.9 !important;
+            transition: all 0.5s ease 0s !important;
+            height: 100% !important;
+
+            &:hover {
+                transform: scale(1.02) !important;
+                overflow: hidden !important;
+                box-shadow: 0 4px 4px 5px lighten(yellow, 20%);
+            }
+        }
+    }
+}
+
+.btn-primary {
+    color: black !important;
+    background-color: lighten(yellow, 40%) !important;
+    border-color: lighten(yellow, 40%) !important;
+
+    &:hover {
+        color: gray !important;
+        background-color: lighten(yellow, 20%) !important;
+        border-color: lighten(yellow, 20%) !important;
+    }
+}
+
+.btn:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
