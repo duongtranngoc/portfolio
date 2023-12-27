@@ -43,7 +43,7 @@ function Introduce() {
                             <br />
 
                             In addition, I am also a writer of short stories and novels with the pen name&nbsp;
-                            <b className="highlight-text">THY - Trần Hạ Yểm.</b>
+                            <b className="highlight-text">THY - Tran Ha Yem.</b>
                         </p>
                     </Col>
                     <Col md={4} className="my-avatar">
