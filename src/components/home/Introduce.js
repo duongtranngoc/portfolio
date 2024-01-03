@@ -91,7 +91,7 @@ function Introduce() {
                             </li>
                             <li className="social-icons">
                                 <a
-                                    href="https://www.instagram.com/duongtranngoc"
+                                    href="https://www.instagram.com/duongtranngoc.info"
                                     target="_blank"
                                     rel="noreferrer"
                                     className="icon-colour home-social-icons"
