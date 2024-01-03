@@ -34,10 +34,10 @@ function AboutCard() {
             </li>
           </ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
+          <p style={{ color: "khaki" }}>
             "Are You Living Like The Walking Dead?"
           </p>
-          <footer className="blockquote-footer">TWD</footer>
+          <footer style={{ color: "dimgrey" }}>- TWD -</footer>
         </blockquote>
       </Card.Body>
     </Card>
