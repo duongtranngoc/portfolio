@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../assets/img/amico.png";
-import Particle from "../Particle";
+import Particle from "../../components/Particle";
 import Introduce from "./Introduce";
 import Type from "./Type";
 import './Home.scss'

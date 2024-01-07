@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 import Preloader from "../src/components/Pre";
 import Navbar from "./components/header/Navbar";
-import Home from "./components/home/Home";
-import About from "./components/about/About";
-import Projects from "./components/projects/Projects";
-import Resume from "./components/resume/Resume";
+import Home from "./pages/home/Home";
+import About from "./pages/about/About";
+import Projects from "./pages/projects/Projects";
+import Resume from "./pages/resume/Resume";
 import Footer from "./components/footer/Footer";
 import {
   HashRouter as Router,
